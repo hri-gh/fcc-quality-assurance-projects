@@ -209,7 +209,7 @@ suite('Functional Tests', function () {
 
     suite('DELETE /api/issues/{project}', function () {
         test('Delete an issue', function (done) {
-            const idToDelete = '66bb00c4a77a6431bef63205';
+            const idToDelete = '66bb00c5a77a6431bef6320a';
 
             chai.request(server)
                 .delete('/api/issues/:project')
